@@ -1,0 +1,80 @@
+body {
+  background-color: #d6d7ef !important;
+}
+h1 {
+  color: white;
+  font-size: 55px !important;
+}
+
+.custom-header {
+  background: #9494d4;
+  border-radius: 20px;
+}
+.line {
+  content: "";
+  height: 3px;
+  width: 200px;
+  background-color: #d6d7ef;
+  margin: 0 auto 30px;
+}
+#main .table-div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+#main table {
+  border-collapse: separate;
+  border-spacing: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+#main table th {
+  color: #989ad5;
+  width: 100%;
+  font-size: x-large;
+}
+#main table td {
+  border-radius: 10px;
+  height: 50px;
+}
+#main button {
+  border: 0;
+}
+#main .text-input {
+  border: 3px solid #d6d7ef;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+}
+#main input:focus {
+  outline: none;
+  border-color: #29f057;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d6d7ef;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.task span {
+  /* font-size: 15px; */
+  font-weight: 500;
+  color: #5b5b6c;
+}
+.task button {
+  background-color: transparent;
+  color: rgb(160, 47, 47);
+  font-size: 20px;
+}
+.task #checkbox {
+  height: 15%;
+  width: 15%;
+  position: relative;
+  top: 9px;
+}
